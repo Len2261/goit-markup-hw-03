@@ -304,15 +304,11 @@ color: var(--accent-color);
         gap: 30px; 
 }
 
-
 /* Our team */
-
 
 .section.color {
     background-color: var(--back-second-color);
 }
-
-
 
 .section-team {
         color: var(--primary-text-color);
@@ -393,7 +389,6 @@ color: var(--accent-color);
         letter-spacing: 0.03em;
         text-decoration: none;
 
-    
         margin-bottom: 20px;
         display: inline-block;
  }
@@ -406,7 +401,6 @@ color: var(--accent-color);
         line-height: 1.2;
         letter-spacing: 0.03em;
         text-decoration: none;
-
         
  }
 
@@ -414,7 +408,6 @@ color: var(--accent-color);
    margin-top: 0px;
    margin-bottom: 0px;
    
-
 }
 
 .contacts .address {
@@ -448,7 +441,6 @@ color: var(--accent-color);
 }
 
 /* Portfolio */
-
 
 .portfolio-button {
     display: flex;
