@@ -108,8 +108,6 @@ img {
 
 .site-nav {
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
     gap: 50px;
     margin-left: auto;
 
@@ -124,6 +122,9 @@ img {
         letter-spacing: 0.02em;
         text-decoration: none;
         gap: 50px;
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .site-nav .link:hover,
@@ -141,8 +142,6 @@ img {
 
 .auth-nav {
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
     gap: 50px;
     margin-left: auto;
     
@@ -156,6 +155,9 @@ img {
         line-height: 1.14;
         letter-spacing: 0.02em;
         text-decoration: none;
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .auth-nav .link:hover,
@@ -168,6 +170,11 @@ color: var(--accent-color);
 
 }
 
+.link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 
 /* main-section */
 
@@ -175,6 +182,7 @@ color: var(--accent-color);
         background-color: var(--back-color);
         padding-top: 200px;
         padding-bottom: 200px;
+        text-align: center;
 }
 
 
@@ -209,8 +217,6 @@ color: var(--accent-color);
         
         width: 216px;
         height: 50px;
-        margin-left: 692px;
-        margin-right: 692px;
         margin-top: 30px;
         border: 0px;
         border-radius: 4px;
@@ -272,6 +278,10 @@ color: var(--accent-color);
 
 /* Activity section */
 
+.indent {
+    padding-top: 0;
+}
+
 .section-title {
         color: var(--primary-text-color);
         font-weight: 700;
@@ -312,7 +322,7 @@ color: var(--accent-color);
         line-height: 1.2;
         letter-spacing: 0.03em;
         text-align: center;
-        padding-bottom: 50px;
+        margin-bottom: 50px;
 
 
 }
@@ -343,7 +353,6 @@ color: var(--accent-color);
         line-height: 1.2;
         letter-spacing: 0.03em;
 
-        margin-top: 30px;
         margin-bottom: 10px;
         text-align: center;
 }
@@ -358,6 +367,10 @@ color: var(--accent-color);
 
 }
 
+.team-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
  /* contact section */
 
@@ -365,6 +378,10 @@ color: var(--accent-color);
         background-color: var(--back-color);
         padding-top: 60px;
         padding-bottom: 60px;
+ }
+
+ .footer-indent {
+    margin-bottom: 9px;
  }
 
  .logo-bottom {
@@ -432,13 +449,6 @@ color: var(--accent-color);
 
 /* Portfolio */
 
-/* .portfolio-container {
-
-    width: 1200px;
-    margin-left: 200px;
-    margin-top: 94px;
-} */
-
 
 .portfolio-button {
     display: flex;
@@ -488,7 +498,7 @@ color: var(--accent-color);
     line-height: 2.0;
     letter-spacing: 0.06em;
 
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .portfolio-list .portfolio-description {
