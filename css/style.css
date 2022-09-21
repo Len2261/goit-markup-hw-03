@@ -52,13 +52,6 @@ img {
 }
 
 
-/* 
-.container {
-    width: 1200px;
-    display: flex;
-    
-} */
-
 
 /* logo */
 
@@ -186,7 +179,6 @@ color: var(--accent-color);
 }
 
 
-
 .main-title {
         color: var(--primary-white-color);
 
@@ -252,7 +244,6 @@ color: var(--accent-color);
     width: 270px;
 }
 
-
 .feature-list .title {
         color: var(--primary-text-color);
         font-weight: 700;
@@ -261,8 +252,6 @@ color: var(--accent-color);
         letter-spacing: 0.03em;
         margin-bottom: 10px;
         margin-top: 0px;
-
-
 
 }
 
